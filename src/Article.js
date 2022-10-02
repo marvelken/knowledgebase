@@ -9,10 +9,12 @@ console.log(blog)
 useEffect(() => {
     ArticleList().then((res) => {
         setBlog(res);
+    
     })
 } , []);
 
-const fetchBlog = (id) => { 
+const fetchBlog = (id, res) => { 
+    const data = res.data;
     const filterBlog = data.filter((item) => item.id === id)
     console.log('blogs',filterBlog[0].blog)
     setBlog(filterBlog[0].blog)
