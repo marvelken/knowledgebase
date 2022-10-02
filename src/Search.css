@@ -1,0 +1,19 @@
+.searchcontainer {
+    background-color: rgb(0, 183, 255);
+    color: white;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search {
+    margin-left: 30%;
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
